@@ -144,7 +144,7 @@ object test
     (1 to 9).map("a"*_).foreach(println)
     val pp = (x:Int, y:Int) =>
     {
-      println(x+"-" + y)
+      println(x+"-" + y) 
       x-y
     }
     println((1 to 3).reduceRight((x,y)=>pp(x,y)))
