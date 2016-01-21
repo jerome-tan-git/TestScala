@@ -154,7 +154,7 @@ object test
     val fun  = Math.ceil _ 
     Array(2.1,12.3,123.4).map(fun).foreach(println)
     
-    def myF(f:((Double)=>Unit),x:Int) = f(x)
+    def myF(f:((Double)=>Unit),x:Int) = f(x)  
     println(myF(println,311111))
     
     def mBy(fa:Double)=(x:Double)=>fa*x
